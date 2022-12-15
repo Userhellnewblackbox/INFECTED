@@ -6,7 +6,7 @@ Recovery Baseado em scripts Lua como Heist Control e em globais pegos diretament
 Devido ao tempo de demora dos botões unicos, iremos por funçoes iguais em cada botão, cujo sera cada uma especificada!
 Igualmete vai ter os desbloqueios separados igual a versão passada!
 Inicio da programação 08/11/2022
-Ultima modificação 14/12/2022
+Ultima modificação 15/12/2022
 Criador: IMPULSE#0585 ou Synxhxyz#2920
 Motivo da recriação é falhas de desbloqueios, INFECTED está em fase beta e ainda não foi lançado!
 Ele sera lançado em versão V.0.0.1, Como fase inicial com o munimo de falhas possiveis.
@@ -5271,6 +5271,38 @@ menu.action(UNLOCK_RISK, "Novos Globais", {}, "my Editor :D", function()
     SET_INT_GLOBAL(262145 + 34112, 0); --- Purple SnakeSkin Spiked
 end)
 
+
+
+menu.action(UNLOCK_RISK, "Teste c#", {}, "my Editor :D", function()
+STAT_SET_BOOL("SERVICE_SPEND_SPIN_THE_WHEEL_PAYMENT", true)
+STAT_SET_BOOL("SERVICE_SPEND_CASINO_GENERIC", true)
+STAT_SET_BOOL("SERVICE_SPEND_ARCADE_GAME", true)
+STAT_SET_BOOL("SERVICE_SPEND_ARCADE_GENERIC", true)
+STAT_SET_BOOL("SERVICE_SPEND_CASINO_HEIST_SKIP_MISSION", true)
+STAT_SET_BOOL("SERVICE_SPEND_CASINO_HEIST_SETUP_HEIST", true)
+STAT_SET_BOOL("SERVICE_SPEND_CASINO_HEIST_CASINO_MODEL", true)
+STAT_SET_BOOL("SERVICE_SPEND_CASINO_HEIST_VAULT_DOOR", true)
+STAT_SET_BOOL("SERVICE_SPEND_CASINO_HEIST_DOOR_SECURITY", true)
+STAT_SET_BOOL("SERVICE_SPEND_ISLAND_HEIST_SUPPORT_AIRSTRIKE", true)
+STAT_SET_BOOL("SERVICE_SPEND_ISLAND_HEIST_SUPPORT_HEAVY_WEAPON", true)
+STAT_SET_BOOL("SERVICE_SPEND_ISLAND_HEIST_SUPPORT_SNIPER", true)
+STAT_SET_BOOL("SERVICE_SPEND_ISLAND_HEIST_SUPPORT_AIR_SUPPORT", true)
+STAT_SET_BOOL("SERVICE_SPEND_ISLAND_HEIST_SUPPORT_DRONE", true)
+STAT_SET_BOOL("SERVICE_SPEND_ISLAND_HEIST_SUPPORT_WEAPON_STASH", true)
+STAT_SET_BOOL("SERVICE_SPEND_ISLAND_HEIST_SUPPRESSORS", true)
+STAT_SET_BOOL("SERVICE_SPEND_ISLAND_HEIST_REPLAY", true)
+STAT_SET_BOOL("SERVICE_SPEND_BEACH_PARTY_GENERIC", true)
+STAT_SET_BOOL("SERVICE_SPEND_SUBMARINE_UTILITY_FEE", true)
+STAT_SET_BOOL("SERVICE_SPEND_SUBMARINE_BOAT", true)
+STAT_SET_BOOL("SERVICE_SPEND_SUBMARINE_RELOCATION", true)
+STAT_SET_BOOL("SERVICE_SPEND_CASINO_CLUB_GENERIC", true)
+STAT_SET_BOOL("SERVICE_SPEND_BUSINESS_EXPENSES", true)
+STAT_SET_BOOL("SERVICE_SPEND_FIXER_HQ_CONCIERGE", true)
+STAT_SET_BOOL("SERVICE_SPEND_REQUEST_COMPANY_SUV", true)
+STAT_SET_BOOL("SERVICE_SPEND_INTERACTION_MENU_ABILITY", true)
+STAT_SET_BOOL("SERVICE_SPEND_AGENT_14_VEHICLE_REQUEST", true)
+STAT_SET_BOOL("SERVICE_SPEND_TONY_LIMO", true)
+end)
 
 ------------------------------------------------------------------------------------------------------------------------------
 ---Editor de K/D---------------QUALQUER EDIÇÃO AQUI EM CIMA----------Blocked v..v..v..v..------------------
