@@ -7,7 +7,7 @@ Devido ao tempo de demora dos botões unicos, iremos por funçoes iguais em cada
 Igualmete vai ter os desbloqueios separados igual a versão passada!
 Inicio da programação 08/11/2022
 Ultima modificação 15/12/2022
-Criador: IMPULSE#0585 ou Synxhxyz#2920
+Criador: Synxhxyz#2920
 Motivo da recriação é falhas de desbloqueios, INFECTED está em fase beta e ainda não foi lançado!
 Ele sera lançado em versão V.0.0.1, Como fase inicial com o munimo de falhas possiveis.
 Script sendo criado solo, todo tipo de atualização vai demorar a ser lançada, me flata experencia e conhecimento!
